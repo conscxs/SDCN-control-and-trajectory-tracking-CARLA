@@ -1,9 +1,9 @@
 ### Question and Answer
-<br> *Provide the plots in the report and explain the plots and describing what is plotted: the variables, the phenomenon shown.
-<br> *What is the effect of the PID according to the plots, how each part of the PID affects the control command?
-<br> *How would you design a way to automatically tune the PID parameters?
-<br> *PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?
-<br> *(Optional) What would you do to improve the PID controller?
+<br> * Provide the plots in the report and explain the plots and describing what is plotted: the variables, the phenomenon shown.
+<br> * What is the effect of the PID according to the plots, how each part of the PID affects the control command?
+<br> * How would you design a way to automatically tune the PID parameters?
+<br> * PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?
+<br> * (Optional) What would you do to improve the PID controller?
 
 ###  Provide the plots in the report and explain the plots and describing what is plotted: the variables, the phenomenon shown.
 <br> This plot shows the Error steering(blue) and steering output(orange). The PID controller tries to reduce the error. so Initially, you may found some oscillations. but the it becomes smaller and stable after some iterations. 
